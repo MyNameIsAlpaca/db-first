@@ -1,0 +1,10 @@
+ID - smallint - Primary Key, unique, auto_increment, not_null
+productor_name - VARCHAR(100)  - not_null
+model_name - VARCHAR(255) - not_null
+price - FLOAT(12,2) - not_null
+km - int - not_null
+year - smallint - not_null
+fuel - VARCHAR(100)  - not_null
+lincense_plate - VARCHAR(15) - not_null - unique
+past_owners - VARCHAR(255)
+
